@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>LB 02 Test</title>
+        <style>
+            h1 {
+                text-align: center;
+                color: black;
+                font-family: 'Courier New', Courier, monospace;
+                margin: 60px auto;
+             }
+        </style>
+    </head>
+    <body>
+        <h1>2. Kapselt Daten und Verarbeitung in Javasript basierte Objekte</h1>
+        <script>
+
+            var userOne = {
+                "email": "max@muster.com",
+                name: "Max",
+                login () {
+                    console.log(this.email, "hat sich eingeloggt");
+                },
+                logout () {
+                    console.log(this.email, "hat sich ausgeloggt");
+                }
+            };
+        </script>
+    </body>
+</html>
